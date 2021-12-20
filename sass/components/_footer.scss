@@ -1,0 +1,21 @@
+.footer-section {
+  background-color: $secondary-2color;
+
+  padding: 60px 0;
+
+  display: flex;
+  align-items: center;
+}
+.footer-section__container {
+  display: flex;
+}
+
+.footer-section__social {
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.footer-section__form {
+  margin-left: auto;
+  padding-top: 12px;
+}

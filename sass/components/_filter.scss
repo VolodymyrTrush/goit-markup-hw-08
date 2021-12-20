@@ -1,0 +1,8 @@
+.filter-list {
+  box-sizing: border-box;
+  @extend %list-content-center;
+  margin-bottom: 50px;
+}
+.filter-list__item:not(:last-child) {
+  margin-right: 8px;
+}

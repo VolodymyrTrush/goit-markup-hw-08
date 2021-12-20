@@ -1,0 +1,29 @@
+.features {
+  padding-bottom: 0;
+}
+.features-list {
+  @extend %list-content-between;
+}
+.features-list__item {
+  width: 270px;
+}
+.features-list__block {
+  @extend %list-content-center;
+  padding: 25px 0;
+  background-color: $secondary-shade-color;
+
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.features-list__title {
+  color: $primary-color;
+  @include font(700, 14px, 1.15, 0.03em);
+
+  margin-bottom: 10px;
+}
+.features-list__discription {
+  color: $primary-shade-2color;
+  @include font(400, 14px, 1.7, 0.03em);
+  font-size: 14px;
+  line-height: 1.7;
+}

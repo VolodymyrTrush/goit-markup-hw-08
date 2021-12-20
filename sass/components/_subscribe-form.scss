@@ -1,0 +1,21 @@
+.subscribe-form {
+  @extend %list-content-between;
+}
+.subscribe-form__input {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba($secondary-color, 0.6);
+  letter-spacing: 0.03em;
+
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+
+  border: 1px solid rgba($secondary-color, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}

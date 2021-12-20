@@ -1,0 +1,30 @@
+.main-title {
+  color: $secondary-color;
+  @include font(900, 44px, 1.4, 0.09em);
+
+  text-transform: uppercase;
+  @include title-margin(30px);
+}
+
+.second-title {
+  color: $primary-color;
+
+  @include font(700, 28px, 1.18, 0.03em);
+  @include title-margin(30px);
+  text-align: center;
+  
+  @media screen and (min-width: 1200px) {
+    @include font(700, 36px, 1.2, 0.03em);
+    @include title-margin(50px);
+  }
+}
+
+.third-title {
+  color: $secondary-color;
+  font-family: inherit;
+  font-style: normal;
+  @include font(400, 14px, 1.14, 0.03em);
+
+  text-transform: uppercase;
+  @include title-margin(20px);
+}

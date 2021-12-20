@@ -1,0 +1,24 @@
+.doing-list {
+  @extend %list-content-between;
+}
+.doing-list__item {
+  position: relative;
+}
+.doing-list__block {
+  @extend %list-content-center;
+  padding: 27px 0;
+  background-color: rgba($secondary-2color, 0.8);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.doing-list__title {
+  color: $secondary-color;
+  font-family: inherit;
+  @include font(400, 14px, 1.14, 0.03em);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  
+}
