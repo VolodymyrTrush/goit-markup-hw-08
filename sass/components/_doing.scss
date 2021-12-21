@@ -1,3 +1,14 @@
+.doing {
+  @media screen and (min-width: 480px) {
+    opacity: 0;
+  }
+  @media screen and (min-width: 768px) {
+    opacity: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    opacity: 1;
+  }
+}
 .doing-list {
   @extend %list-content-between;
 }
@@ -20,5 +31,4 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  
 }

@@ -9,15 +9,13 @@ body {
   letter-spacing: 0.03em;
 }
 .section {
-  padding: 60px 0;
-  @media screen and (min-width: 1200px) {
-    padding: 94px 0;
-  }
+  padding: 94px 0;
 }
 .container {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+
   @media screen and (min-width: 480px) {
     width: 480px;
   }
