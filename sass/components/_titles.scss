@@ -1,7 +1,7 @@
 .main-title {
   color: $secondary-color;
   text-transform: uppercase;
-  
+
   @include font(900, 26px, 1.62, 0.06em);
   @include title-margin(30px);
 
@@ -43,10 +43,12 @@
 
 .third-title {
   color: $secondary-color;
-  font-family: inherit;
-  font-style: normal;
-  @include font(400, 14px, 1.14, 0.03em);
 
   text-transform: uppercase;
   @include title-margin(20px);
+
+  @media screen and (min-width: 1200px) {
+    @include font(400, 14px, 1.14, 0.03em);
+    @include title-margin(20px);
+  }
 }

@@ -1,12 +1,7 @@
 .doing {
-  @media screen and (min-width: 480px) {
-    opacity: 0;
-  }
-  @media screen and (min-width: 768px) {
-    opacity: 0;
-  }
+  display: none;
   @media screen and (min-width: 1200px) {
-    opacity: 1;
+    display: flex;
   }
 }
 .doing-list {
