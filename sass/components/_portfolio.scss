@@ -3,9 +3,7 @@
   margin-bottom: -30px;
 
   @media screen and (min-width: 480px) {
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
+    
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -46,17 +44,17 @@
   }
 }
 
-// .portfolio__item:nth-last-child(-n + 3) {
-//   margin-bottom: 0;
-// }
-// .portfolio__item:nth-child(3n) {
-//   margin-right: 0;
-// }
-
+.portfolio__overlay-wrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-top: none;
+  
+}
 .portfolio__wrapper {
   padding: 19px 23px;
   border: 1px solid $border-color;
-  border-top: none;
+  
 }
 .portfolio__title {
   color: $primary-shade-color;
@@ -66,12 +64,6 @@
   color: $primary-shade-2color;
   @include font(400, 16px, 1.9, 0.03em);
   margin-top: 4px;
-}
-
-.portfolio__overlay-wrapper {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
 }
 .portfolio__overlay {
   position: absolute;

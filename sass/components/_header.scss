@@ -4,8 +4,7 @@
 .header-section__items {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  
 }
-.header-section__contact {
-  display: flex;
-  margin-left: auto;
-}
+
