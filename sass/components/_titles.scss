@@ -43,11 +43,18 @@
 
 .third-title {
   color: $secondary-color;
+  text-align: center;
 
   text-transform: uppercase;
   @include title-margin(20px);
-
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    text-align: center;
+  }
   @media screen and (min-width: 1200px) {
+    text-align: left;
     @include font(400, 14px, 1.14, 0.03em);
     @include title-margin(20px);
   }
