@@ -242,6 +242,7 @@ a {
 @media screen and (min-width: 1200px) {
   .contact-list__item:not(:last-child) {
     margin-right: 50px;
+    margin-bottom: 0;
   }
 }
 
@@ -332,32 +333,66 @@ a {
 
 .hero {
   background-color: #c4c4c4;
-  padding: 200px 0;
+  width: 100%;
   text-align: center;
   max-width: 1600px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Hero/hero-br-mob-1x.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Hero/hero-br-mob-1x.jpg");
+  padding-top: 118px;
+  padding-bottom: 118px;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/Hero/hero-br-mob-2x.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url("../images/Hero/hero-br-tab-1x.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/Hero/hero-br-tab-2x.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url("../images/Hero/hero-br-dt-1x.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/Hero/hero-br-dt-2x.jpg");
+  }
 }
 
 @media screen and (min-width: 480px) {
   .hero {
     padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
