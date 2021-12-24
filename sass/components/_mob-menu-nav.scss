@@ -1,0 +1,31 @@
+
+.mob-menu-nav {
+  margin-bottom: 302px;
+}
+.mob-menu-nav__list {
+  padding-top: 48px;
+  padding-left: 40px;
+}
+.mob-menu-nav__item {
+  position: relative;
+}
+.mob-menu-nav__link {
+  color: $primary-shade-color;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  transition: color 250ms linear;
+
+  display: block;
+  
+  &:hover,
+  &:focus,
+  &.current {
+    color: $accent-color;
+  }
+}
+.mob-menu-nav__item:not(:last-child) {
+  padding-bottom: 32px;
+}
