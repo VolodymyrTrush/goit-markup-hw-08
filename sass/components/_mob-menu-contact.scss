@@ -1,17 +1,36 @@
-.mob-menu-contact-list {
+// .mob-menu-contact {
+
+// }
+.mob-menu-contact__list {
   margin-left: 40px;
   margin-bottom: 64px;
 }
-.mob-menu-contact-list__item:not(:last-child) {
+.mob-menu-contact__item:not(:last-child) {
   margin-bottom: 32px;
 }
 
-.mob-menu-contact-list__link {
+.mob-menu-contact__link--tel {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
+  letter-spacing: 0.02em;
+
+  color: $primary-shade-2color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.mob-menu-contact__link--mailto {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 
   color: $primary-shade-2color;

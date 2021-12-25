@@ -1,17 +1,18 @@
-.mob-menu-social-list {
+// .mob-menu-social {
+
+// }
+.mob-menu-social__list {
   display: flex;
   margin-left: 40px;
   margin-bottom: 64px;
 }
-.mob-menu-social-list__item {
+.mob-menu-social__item {
   align-items: center;
-  
 }
-.mob-menu-social-list__item:not(:last-child) {
+.mob-menu-social__item:not(:last-child) {
   margin-right: 20px;
-  
 }
-.mob-menu-social-list__link {
+.mob-menu-social__link {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -22,11 +23,9 @@
   color: $primary-shade-2color;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
   &:hover,
   &:focus {
     color: $accent-color;
-    
   }
 }
-
