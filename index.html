@@ -52,19 +52,16 @@
             </a>
           </li>
         </ul>
-        <button type="button" class="button-menu-open">
-          <svg class="button-menu-open__icon" width="40" height="40">
-            <use href="./images/icons.svg#icon-menu-open"></use>
+
+        <button type="button" class="button-menu" aria-expanded="false" data-menu-open>
+          <svg width="40" height="40" aria-label="Переключатель иобильного меню">
+            <use class="button-menu-open__icon" href="./images/icons.svg#icon-menu-open"></use>
+            <use class="button-menu-close__icon" href="./images/icons.svg#icon-menu-close"></use>
           </svg>
         </button>
       </div>
     </header>
     <div class="mob-menu">
-      <button type="button" class="button-menu-close">
-        <svg class="button-menu-close__icon" width="40" height="40">
-          <use href="./images/icons.svg#icon-menu-close"></use>
-        </svg>
-      </button>
       <nav class="mob-menu-nav">
         <ul class="mob-menu-nav__list">
           <li class="mob-menu-nav__item">
@@ -85,7 +82,7 @@
             <a class="mob-menu-contact__link--mailto" href="mailto:info@devstudio.com"
               >info@example.com</a
             >
-          </li> 
+          </li>
         </ul>
       </div>
       <div class="mob-menu-social">
@@ -177,19 +174,34 @@
           <h2 class="second-title">Чем мы занимаемся</h2>
           <ul class="doing-list">
             <li class="doing-list__item">
-              <img srcset="./images/Doing/desktop/img1.jpg 1x, ./images/Doing/desktop/img1@2x.jpg 2x" src="./images/Doing/desktop/img1.jpg" alt="Руки на клавиатуре" width="370" />
+              <img
+                srcset="./images/Doing/desktop/img1.jpg 1x, ./images/Doing/desktop/img1@2x.jpg 2x"
+                src="./images/Doing/desktop/img1.jpg"
+                alt="Руки на клавиатуре"
+                width="370"
+              />
               <div class="doing-list__block">
                 <p class="doing-list__title">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
             <li class="doing-list__item">
-              <img srcset="./images/Doing/desktop/img2.jpg 1x, ./images/Doing/desktop/img2@2x.jpg 2x" src="./images/Doing/desktop/img2.jpg" alt="Телефон в руках" width="370" />
+              <img
+                srcset="./images/Doing/desktop/img2.jpg 1x, ./images/Doing/desktop/img2@2x.jpg 2x"
+                src="./images/Doing/desktop/img2.jpg"
+                alt="Телефон в руках"
+                width="370"
+              />
               <div class="doing-list__block">
                 <p class="doing-list__title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
             <li class="doing-list__item">
-              <img srcset="./images/Doing/desktop/img3.jpg 1x, ./images/Doing/desktop/img3@2x.jpg 2x  " src="./images/Doing/desktop/img3.jpg" alt="Фигура на планшете" width="370" />
+              <img
+                srcset="./images/Doing/desktop/img3.jpg 1x, ./images/Doing/desktop/img3@2x.jpg 2x"
+                src="./images/Doing/desktop/img3.jpg"
+                alt="Фигура на планшете"
+                width="370"
+              />
               <div class="doing-list__block">
                 <p class="doing-list__title">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
               </div>
@@ -203,7 +215,12 @@
           <h2 class="second-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__item">
-              <img srcset="./images/Team/desktop/img1.jpg 1x, ./images/Team/desktop/img1@2x.jpg 2x" src="./images/Team/desktop/img1.jpg" alt="Парень" width="270" />
+              <img
+                srcset="./images/Team/desktop/img1.jpg 1x, ./images/Team/desktop/img1@2x.jpg 2x"
+                src="./images/Team/desktop/img1.jpg"
+                alt="Парень"
+                width="270"
+              />
               <div class="team-list__info">
                 <div class="team-list__member">
                   <h3 class="team-list__member-name">Игорь Демьяненко</h3>
@@ -242,7 +259,12 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img srcset="./images/Team/desktop/img2.jpg 1x, ./images/Team/desktop/img2@2x.jpg 2x" src="./images/Team/desktop/img2.jpg" alt="Девушка" width="270" />
+              <img
+                srcset="./images/Team/desktop/img2.jpg 1x, ./images/Team/desktop/img2@2x.jpg 2x"
+                src="./images/Team/desktop/img2.jpg"
+                alt="Девушка"
+                width="270"
+              />
               <div class="team-list__info">
                 <div class="team-list__member">
                   <h3 class="team-list__member-name">Ольга Репина</h3>
@@ -281,7 +303,12 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img srcset="./images/Team/desktop/img3.jpg 1x, ./images/Team/desktop/img3@2x.jpg 2x" src="./images/Team/desktop/img3.jpg" alt="Парень" width="270" />
+              <img
+                srcset="./images/Team/desktop/img3.jpg 1x, ./images/Team/desktop/img3@2x.jpg 2x"
+                src="./images/Team/desktop/img3.jpg"
+                alt="Парень"
+                width="270"
+              />
               <div class="team-list__info">
                 <div class="team-list__member">
                   <h3 class="team-list__member-name">Николай Тарасов</h3>
@@ -320,7 +347,12 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img srcset="./images/Team/desktop/img4.jpg 1x, ./images/Team/desktop/img4@2x.jpg 2x" src="./images/Team/desktop/img4.jpg" alt="Парень" width="270" />
+              <img
+                srcset="./images/Team/desktop/img4.jpg 1x, ./images/Team/desktop/img4@2x.jpg 2x"
+                src="./images/Team/desktop/img4.jpg"
+                alt="Парень"
+                width="270"
+              />
               <div class="team-list__info">
                 <div class="team-list__member">
                   <h3 class="team-list__member-name">Михаил Ермаков</h3>
@@ -584,5 +616,6 @@
     </div>
     <!--script-->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

@@ -52,6 +52,11 @@
             </a>
           </li>
         </ul>
+        <button type="button" class="button-menu-open">
+          <svg class="button-menu-open__icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--Портфолио главный контент -->
@@ -79,7 +84,27 @@
           <ul class="portfolio">
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img1.jpg 1x, ./images/Portfolio/desktop/img1@2x.jpg 2x" src="./images/Portfolio/desktop/img1.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img1.jpg    1x,
+                      ./images/Portfolio/desktop/img1@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img1.jpg    1x,
+                      ./images/Portfolio/tab/img1@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img1.jpg    1x,
+                      ./images/Portfolio/mob/img1@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img1.jpg" alt="Экран ноутбука с фото"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -93,9 +118,30 @@
                 <p class="portfolio__discription">Веб-сайт</p>
               </div>
             </li>
+
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img2.jpg 1x, ./images/Portfolio/desktop/img2@2x.jpg 2x" src="./images/Portfolio/desktop/img2.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img2.jpg    1x,
+                      ./images/Portfolio/desktop/img2@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img2.jpg    1x,
+                      ./images/Portfolio/tab/img2@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img2.jpg    1x,
+                      ./images/Portfolio/mob/img2@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img2.jpg" alt="Баскетбалисты"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -111,7 +157,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img3.jpg 1x, ./images/Portfolio/desktop/img3@2x.jpg 2x" src="./images/Portfolio/desktop/img3.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img3.jpg    1x,
+                      ./images/Portfolio/desktop/img3@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img3.jpg    1x,
+                      ./images/Portfolio/tab/img3@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img3.jpg    1x,
+                      ./images/Portfolio/mob/img3@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img3.jpg" alt="Эмблема ресторана"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -127,7 +193,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img4.jpg 1x, ./images/Portfolio/desktop/img4@2x.jpg 2x" src="./images/Portfolio/desktop/img4.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img4.jpg    1x,
+                      ./images/Portfolio/desktop/img4@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img4.jpg    1x,
+                      ./images/Portfolio/tab/img4@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img4.jpg    1x,
+                      ./images/Portfolio/mob/img4@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img4.jpg" alt="Наушники"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -143,7 +229,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img5.jpg 1x, ./images/Portfolio/desktop/img5@2x.jpg 2x" src="./images/Portfolio/desktop/img5.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img5.jpg    1x,
+                      ./images/Portfolio/desktop/img5@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img5.jpg    1x,
+                      ./images/Portfolio/tab/img5@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img5.jpg    1x,
+                      ./images/Portfolio/mob/img5@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img5.jpg" alt="Коробочки"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -159,7 +265,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img6.jpg 1x, ./images/Portfolio/desktop/img6@2x.jpg 2x" src="./images/Portfolio/desktop/img6.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img6.jpg    1x,
+                      ./images/Portfolio/desktop/img6@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img6.jpg    1x,
+                      ./images/Portfolio/tab/img6@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img6.jpg    1x,
+                      ./images/Portfolio/mob/im61@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img6.jpg" alt="Манитор"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -175,7 +301,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img7.jpg 1x, ./images/Portfolio/desktop/img7@2x.jpg 2x" src="./images/Portfolio/desktop/img7.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img7.jpg    1x,
+                      ./images/Portfolio/desktop/img7@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img7.jpg    1x,
+                      ./images/Portfolio/tab/img7@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img7.jpg    1x,
+                      ./images/Portfolio/mob/img7@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img7.jpg" alt="Открытая книга"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -191,7 +337,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img8.jpg 1x, ./images/Portfolio/desktop/img8@2x.jpg 2x" src="./images/Portfolio/desktop/img8.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img8.jpg    1x,
+                      ./images/Portfolio/desktop/img8@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img8.jpg    1x,
+                      ./images/Portfolio/tab/img8@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img8.jpg    1x,
+                      ./images/Portfolio/mob/img8@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img8.jpg" alt="Лейба"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
@@ -207,7 +373,27 @@
             </li>
             <li class="portfolio__item">
               <div class="portfolio__overlay-wrapper">
-                <img srcset="./images/Portfolio/desktop/img9.jpg 1x, ./images/Portfolio/desktop/img9@2x.jpg 2x" src="./images/Portfolio/desktop/img9.jpg" alt="Экран ноутбука с фото" width="370" />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/Portfolio/desktop/img9.jpg    1x,
+                      ./images/Portfolio/desktop/img9@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/tab/img9.jpg    1x,
+                      ./images/Portfolio/tab/img9@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/Portfolio/mob/img9.jpg    1x,
+                      ./images/Portfolio/mob/img9@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./images/Portfolio/desktop/img9.jpg" alt="Пальцы на клавиатуре"
+                /></picture>
                 <div class="portfolio__overlay">
                   <p class="portfolio__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
