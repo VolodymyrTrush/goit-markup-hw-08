@@ -78,35 +78,18 @@
   position: absolute;
   top: 10px;
   right: 15px;
-  width: 40px;
-  height: 40px;
-  
+
   background-color: transparent;
-  
   border: none;
+  display: block;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  
-
   fill: currentColor;
   &:hover,
   &:focus {
     color: $accent-color;
   }
-
-  & .button-menu-close__icon {
-    display: none;
-  }
-
-  &.is-open .button-menu-close__icon {
-    display: block;
-  }
-
-  &.is-open .button-menu-open__icon {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
-

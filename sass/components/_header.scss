@@ -1,10 +1,11 @@
 .header-section {
   border-bottom: 1px solid #ececec;
+  
 }
 .header-section__items {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  position: relative;
 }
 

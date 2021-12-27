@@ -21,6 +21,10 @@
   margin-right: 30px;
   margin-bottom: 30px;
 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
   @media screen and (min-width: 480px) {
     width: 450px;
   }
@@ -51,6 +55,7 @@
 .portfolio__wrapper {
   padding: 19px 23px;
   border: 1px solid $border-color;
+  flex-grow: 1;
 }
 .portfolio__title {
   color: $primary-shade-color;
