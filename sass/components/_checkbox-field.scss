@@ -17,6 +17,9 @@
   fill: transparent;
 
   margin-right: 8px;
+  @media screen and (max-width:480px) {
+    margin-right: 16px;
+  }
   cursor: pointer;
 }
 .checkbox-field__text {

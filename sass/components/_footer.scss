@@ -11,7 +11,7 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -19,21 +19,16 @@
 }
 .footer-section__contact {
   text-align: center;
-  @media screen and (min-width: 480px) {
-    text-align: center;
-  }
-  @media screen and (min-width: 768px) {
-    text-align: center;
-    margin-left: 76px; 
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 165px;
   }
   @media screen and (min-width: 1200px) {
     text-align: left;
-    margin-left: 0;
-
   }
 }
 .footer-section__social {
-  padding-top: 60px;
+  margin-top: 60px;
 
   @media screen and (min-width: 480px) {
     text-align: center;
@@ -41,27 +36,28 @@
   @media screen and (min-width: 768px) {
    text-align: center;
    padding-top: 5px;
-   margin-right: 89px;
+   margin-top: 0;
+   
   }
   @media screen and (min-width: 1200px) {
     margin-left: 70px;
     padding-top: 12px;
-    margin-right: 0;
+    margin-top: 0;
+    
   }
 }
 
 .footer-section__form {
-  padding-top: 60px;
+  margin-top: 60px;
 
   @media screen and (min-width: 480px) {
     text-align: center;
   }
-  @media screen and (min-width: 768px) {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
   @media screen and (min-width: 1200px) {
     margin-right: 0;
+    margin-left: auto;
     padding-top: 12px;
+    margin-top: 0;
   }
 }

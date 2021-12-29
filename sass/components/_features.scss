@@ -15,26 +15,26 @@
   }
 }
 .features-list {
-  margin-bottom: -30px;
-
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: space-between;
+    margin: -15px;
   }
 }
 .features-list__item {
-  margin-bottom: 30px;
-
+ 
   @media screen and (min-width: 768px) {
-    width: calc(100% / 2 - 15px);
+    margin: 15px;
+    width: calc(100% / 2 - 30px);
   }
   @media screen and (min-width: 1200px) {
-    width: calc(100% / 4 - 15px);
+    margin: 15px;
+    width: calc(100% / 4 - 30px);
+  }
+}
+.features-list__item:not(:last-child) {
+  @media screen and (max-width: 768px) {
+    margin-bottom: 30px;
   }
 }
 .features-list__block {

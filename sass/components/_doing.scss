@@ -5,9 +5,13 @@
   }
 }
 .doing-list {
-  @extend %list-content-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
 }
 .doing-list__item {
+  margin: 15px;
+  width: calc(100% / 3 - 30px);
   position: relative;
 }
 

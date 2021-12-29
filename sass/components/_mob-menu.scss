@@ -1,26 +1,21 @@
 .mob-menu {
   position: fixed;
-  background-color: $secondary-color; 
-  
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+
   margin-left: auto;
   margin-right: auto;
+  padding: 48px 40px;
   width: 100vw;
   height: 100vh;
   top: 0;
   z-index: 5;
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
 
-    @media screen and (min-width: 480px) {   
-    display: block; 
+  @media screen and (min-width: 480px) {
+    display: block;
   }
   @media screen and (min-width: 768px) {
-    display: none; 
+    display: none;
   }
-  
 }
-
