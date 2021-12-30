@@ -1,8 +1,6 @@
-.contact-list {
+.contacts {
   display: none;
-  @media screen and (min-width: 480px) {
-    display: none;
-  }
+
   @media screen and (min-width: 768px) {
     display: block;
     margin-left: auto;
@@ -11,14 +9,20 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
-    margin-left: auto;
+  }
+}
+.contact-list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 .contact-list__item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 32px;
+  }
   @media screen and (min-width: 768px) {
     margin-bottom: 10px;
   }
-
   @media screen and (min-width: 1200px) {
     margin-right: 50px;
     margin-bottom: 0;
@@ -49,12 +53,7 @@
 
 .secondary-contact-list {
   margin-top: 20px;
-
-  text-align: center;
-  @media screen and (min-width: 480px) {
-    text-align: center;
-  }
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 1200px) {
     text-align: center;
   }
   @media screen and (min-width: 1200px) {

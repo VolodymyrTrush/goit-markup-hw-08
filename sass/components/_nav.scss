@@ -12,7 +12,9 @@
   }
 }
 .nav__list {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 .nav__item {
   position: relative;
@@ -27,7 +29,10 @@
   transition: color 250ms linear;
 
   display: block;
-  padding: 32px 0;
+  @media screen and (min-width: 768px) {
+    padding: 32px 0;
+  }
+
   &:hover,
   &:focus,
   &.current {
@@ -35,7 +40,12 @@
   }
 }
 .nav__item:not(:last-child) {
-  margin-right: 50px;
+  @media screen and (max-width: 767px) {
+    padding-bottom: 32px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 50px;
+  }
 }
 .nav__link.nav__link--current::after {
   content: '';
@@ -47,5 +57,3 @@
   bottom: -1px;
   border-radius: 2px;
 }
-
-

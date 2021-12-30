@@ -1,13 +1,11 @@
-// .mob-menu-nav {
-  
-// }
-// .mob-menu-nav__list {
-  
-// }
-.mob-menu-nav__item {
-  position: relative;
+.mob-menu-nav {
+  @media screen and (max-width: 767px) {
+    display: block;
+    margin-bottom: auto;
+  }
 }
-.mob-menu-nav__link {
+
+.nav__link--big-size {
   color: $primary-shade-color;
   font-family: inherit;
   font-weight: 500;
@@ -23,7 +21,4 @@
   &.current {
     color: $accent-color;
   }
-}
-.mob-menu-nav__item:not(:last-child) {
-  padding-bottom: 32px;
 }

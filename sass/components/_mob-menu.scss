@@ -12,9 +12,9 @@
   top: 0;
   z-index: 5;
 
-  @media screen and (min-width: 480px) {
-    display: block;
-  }
+  
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and (min-width: 768px) {
     display: none;
   }
