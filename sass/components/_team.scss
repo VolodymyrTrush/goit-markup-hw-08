@@ -49,8 +49,6 @@ img {
 .team-list__member-position {
   color: $primary-shade-2color;
   @include font(400, 16px, 1.2, 0.03em);
-
   text-align: center;
-
   margin-top: 10px;
 }
