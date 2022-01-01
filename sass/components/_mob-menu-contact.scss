@@ -5,12 +5,10 @@
 }
 
 .contact-list__link--big-size {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
+  @media screen and (max-width: 479px) {
+    font-size: 27px;
+  }
+    font-size: 34px;
 }
 
 .contact-list__link--accent-color {
@@ -18,13 +16,9 @@
 }
 
 .contact-list__link--medium-size {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
   font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
 }
+
 .contact-list__link--shadecolor {
   color: $primary-shade-2color;
 }
