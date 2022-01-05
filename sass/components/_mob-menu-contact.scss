@@ -5,10 +5,10 @@
 }
 
 .contact-list__link--big-size {
-  @media screen and (max-width: 479px) {
-    font-size: 27px;
-  }
+  font-size: 27px;
+  @media screen and (min-width: 480px) {
     font-size: 34px;
+  }
 }
 
 .contact-list__link--accent-color {
@@ -17,8 +17,4 @@
 
 .contact-list__link--medium-size {
   font-size: 24px;
-}
-
-.contact-list__link--shadecolor {
-  color: $primary-shade-2color;
 }

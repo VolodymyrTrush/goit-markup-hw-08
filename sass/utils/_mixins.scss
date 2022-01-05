@@ -7,3 +7,15 @@
 @mixin title-margin($mb) {
   margin-bottom: $mb;
 }
+@mixin bg-img($url, $withGrad: true) {
+  @if withGrad {
+    background-image: linear-gradient(
+        to right,
+        rgba($secondary-2color, 0.4),
+        rgba($secondary-2color, 0.4)
+      ),
+      url($url);
+  } @else {
+    background-image: url($url);
+  }
+}
